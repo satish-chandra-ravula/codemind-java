@@ -1,10 +1,11 @@
-import java.util.Scanner;
-public class Cir{
+import java.util.*;
+public class M{
     public static void main(String[] args)
     {
-        Scanner inp=new Scanner(System.in);
-        double r=inp.nextDouble();
+        Scanner sc=new Scanner(System.in) ;
+        double r=sc.nextInt() ;
         double ar=3.14*r*r;
-        System.out.printf("%.2f",ar);
+        System.out.printf("%.2f",ar) ;
+        
     }
 }
